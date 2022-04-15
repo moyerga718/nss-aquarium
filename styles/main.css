@@ -1,0 +1,118 @@
+html {
+    font-family: Comfortaa;
+    text-align: center;
+    
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+header {
+    padding: 60px;
+    background-color: rgba(87, 130, 209, 0.418) 
+}
+
+.fishAndTipsBlock {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.fishBlock {
+    margin: 0px;
+    width: 80%;
+    text-align: center;
+    
+}
+
+.fishBlock__fishEl {
+    padding-bottom: 40px;
+}
+
+
+.fishEl__flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.fishEl__dataFlexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:480px;
+    padding-left: 20px;
+}
+
+.fishEl__img {
+    width: 300px;
+    border-radius: 100%;
+}
+
+.fishEl__dataList{
+    text-align: left;
+    width: 500 px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.fishTipsBlock {
+    background-color:rgb(211, 211, 211);
+    width: 20%;
+    margin: 10px;
+    border: rgb(119, 119, 119) solid 2px;
+    padding: 10px;
+}
+
+.travelBlock {
+    margin-top: 0px;
+    background-color: rgba(87, 130, 209, 0.418);
+    border: solid rgba(87, 130, 209, 0.418) 1px;
+    
+}
+
+.travelBlock__locationBlock {
+    margin-top: 100px;
+}
+
+.locationEl__img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.locationImageFlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.locationBlock__locationEl {
+    padding: 0% 2%;
+    width: 46%;
+}
+
+.locationEl__name {
+    position: relative;
+}
